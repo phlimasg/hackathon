@@ -20,11 +20,7 @@ label{
 							<div class="form-group col-lg-3">
 									<label for="">Telefone:</label>
 								<input type="text" class="form-control" id="phone" name="phone" placeholder="Telefone">
-							</div>	
-							<div class="form-group col-lg-3">
-									<label for="">CPF:</label>
-								<input type="text" class="form-control" id="cpf" name="cpf" placeholder="CPF">
-							</div>							
+							</div>						
 						</div>
 						<div class="row">
 							<div class="form-group col-lg-2">
@@ -54,12 +50,7 @@ label{
 								<input type="text" class="form-control" id="uf" name="uf" placeholder="Estado">
 							</div>						
 						</div>
-						<div class="row">
-							<div class="form-group col-lg-4">
-									<label for="">Valor da aposentadoria:</label>
-								<input type="text" class="form-control" id="aposentadoria" name="aposentadoria" placeholder="Valor">
-							</div>
-						</div>
+						
 
 						<h4>Possui algum parente ou pessoa de confiança?
 							<br><small style="font-size: 24px;">*Ele receberá algumas informações sobre a solicitação de empréstimo.</small>
@@ -88,15 +79,11 @@ label{
 										<label for="">Valor do empréstimo:</label>
 									<input type="text" class="form-control" id="aposentadoria" name="aposentadoria" placeholder="Valor">
 								</div>
-								<div class="form-group col-lg-4">
-										<label for="">Quanto pode pagar por mês?</label>
-									<input type="text" class="form-control" id="aposentadoria" name="aposentadoria" placeholder="Valor">
-								</div>
 							</div>
 
 						<div class="row">
 							<div class="form-group col-lg-6">
-								<button type="submit" value="submit" class="btn submit_btn">Clique aqui e para o contato</button>
+								<button type="submit" value="submit" class="btn submit_btn">Cadastrar</button>
 							</div>
 						</div>
 					</form>

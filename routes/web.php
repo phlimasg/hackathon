@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 Route::get('/preciso_ajuda', function () {
     return view('ajuda');
 })->name('ajuda');
@@ -26,4 +26,6 @@ Route::get('/bank', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', function () {
+    return view('home_idoso');
+})->name('home_idoso');

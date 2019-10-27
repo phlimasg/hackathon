@@ -20,7 +20,11 @@ label{
 								<input type="text" class="form-control" id="cod" name="cod" placeholder="Nome">
 							</div>
 							<div class="form-group col-lg-5">
-									<label for="">Agência:</label>
+									<label for="">Nome da Agência:</label>
+									<input type="text" class="form-control" id="name" name="name" placeholder="Nome">
+								</div>
+								<div class="form-group col-lg-4">
+									<label for="">CNPJ:</label>
 									<input type="text" class="form-control" id="name" name="name" placeholder="Nome">
 								</div>
 														
@@ -68,7 +72,7 @@ label{
 
 						<div class="row">
 							<div class="form-group col-lg-6">
-								<button type="submit" value="submit" class="btn submit_btn">Clique aqui e para o contato</button>
+								<button type="submit" value="submit" class="btn submit_btn">Cadastrar</button>
 							</div>
 						</div>
 					</form>
