@@ -14,3 +14,16 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/preciso_ajuda', function () {
+    return view('ajuda');
+})->name('ajuda');
+Route::get('/cadastro_idoso', function () {
+    return view('cadastro_idoso');
+})->name('cad_idoso');
+Route::get('/bank', function () {
+    return view('cadastro_bank');
+})->name('cad_bank');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
